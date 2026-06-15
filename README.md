@@ -51,4 +51,4 @@ format and is out of scope.
 
 ## License
 
-Licensed under [MIT license](LICENSE-MIT) at your option.
+Licensed under [MIT license](LICENSE-MIT)
