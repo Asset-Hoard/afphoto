@@ -6,7 +6,9 @@
 
 fn main() {
     let mut args = std::env::args().skip(1);
-    let input = args.next().expect("usage: dump_preview <input> [output.png]");
+    let input = args
+        .next()
+        .expect("usage: dump_preview <input> [output.png]");
     let output = args.next().unwrap_or_else(|| "preview.png".to_string());
 
     let bytes = std::fs::read(&input).expect("failed to read input file");
