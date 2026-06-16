@@ -1,5 +1,9 @@
 # afphoto
 
+[![Crates.io](https://img.shields.io/crates/v/afphoto.svg)](https://crates.io/crates/afphoto)
+[![Docs.rs](https://docs.rs/afphoto/badge.svg)](https://docs.rs/afphoto)
+[![CI](https://github.com/Asset-Hoard/afphoto/actions/workflows/test.yml/badge.svg)](https://github.com/Asset-Hoard/afphoto/actions/workflows/test.yml)
+
 Read embedded preview images from [Affinity](https://affinity.serif.com/) files
 , Photo (`.afphoto`), Designer (`.afdesign`) and Publisher (`.afpub`) , in pure,
 dependency-free Rust.
